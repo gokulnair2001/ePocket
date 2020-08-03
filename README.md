@@ -61,7 +61,7 @@ The second best thing is using this app it provides you 2X protection as if you 
 
 # License ⚖️  
 
-MIT License<br> Please read the [License](https://github.com/gokulnair2001/WTC-/blob/master/LICENSE) file for details.
+MIT License<br> Please read the [License](https://github.com/gokulnair2001/ePocket/blob/master/LICENSE) file for details.
 
 # How to Contribute 🖋 
 
