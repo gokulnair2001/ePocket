@@ -3,27 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544DF8451F06E630F42F10CF /* Pods_ePocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF68D8E49043232C8B81E08 /* Pods_ePocket.framework */; };
+		5517BA0B24D70D27001930D3 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517BA0A24D70D27001930D3 /* ReminderTableViewCell.swift */; };
+		553CC93224D709B7002A92E4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CC93124D709B7002A92E4 /* AddViewController.swift */; };
+		555C6AFB24D4214200DD35AC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C6AFA24D4214200DD35AC /* Utilities.swift */; };
+		555F547324D1A3BB00ACCD13 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F547224D1A3BB00ACCD13 /* ReminderViewController.swift */; };
 		5569F1C924D1536000E2C841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569F1C824D1536000E2C841 /* AppDelegate.swift */; };
 		5569F1CB24D1536000E2C841 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569F1CA24D1536000E2C841 /* SceneDelegate.swift */; };
-		5569F1CD24D1536000E2C841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569F1CC24D1536000E2C841 /* ViewController.swift */; };
+		5569F1CD24D1536000E2C841 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569F1CC24D1536000E2C841 /* MainViewController.swift */; };
 		5569F1D024D1536000E2C841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5569F1CE24D1536000E2C841 /* Main.storyboard */; };
 		5569F1D224D1536000E2C841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5569F1D124D1536000E2C841 /* Assets.xcassets */; };
 		5569F1D524D1536000E2C841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5569F1D324D1536000E2C841 /* LaunchScreen.storyboard */; };
+		556D12A724D29AF1001B76D6 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D12A624D29AF1001B76D6 /* OnBoardingViewController.swift */; };
+		5579F78724D5A349006CD4B9 /* NBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579F78624D5A349006CD4B9 /* NBCollectionViewCell.swift */; };
+		558BC10824D7D6B900687A2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558BC10724D7D6B900687A2F /* GoogleService-Info.plist */; };
+		55A8B79C24D5D75800737B42 /* PGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8B79B24D5D75800737B42 /* PGCollectionViewCell.swift */; };
+		55A8B79E24D5D76400737B42 /* SUBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8B79D24D5D76400737B42 /* SUBCollectionViewCell.swift */; };
+		55A8B7A024D5D76F00737B42 /* ePocketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8B79F24D5D76F00737B42 /* ePocketCollectionViewCell.swift */; };
+		55BA323824D1A5E700A55146 /* showCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA323724D1A5E700A55146 /* showCardViewController.swift */; };
+		55BC5FA024D7E2FE0098AAEF /* ContactsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC5F9F24D7E2FE0098AAEF /* ContactsCollectionViewCell.swift */; };
+		55BC5FA224D7E97F0098AAEF /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC5FA124D7E97F0098AAEF /* AddFriendViewController.swift */; };
+		55E0588E24D161D700E033D1 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0588D24D161D700E033D1 /* ModelConstants.swift */; };
+		55E0589124D1869E00E033D1 /* HapticFeedBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0589024D1869E00E033D1 /* HapticFeedBack.swift */; };
+		55E9F4F524D153C400A97470 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9F4F424D153C400A97470 /* SignInViewController.swift */; };
+		55E9F4F724D153CD00A97470 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9F4F624D153CD00A97470 /* SignUpViewController.swift */; };
+		55FDC14224D2C79C00B0DF19 /* paymentGatewayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14124D2C79C00B0DF19 /* paymentGatewayViewController.swift */; };
+		55FDC14424D2C7C100B0DF19 /* netBankingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14324D2C7C000B0DF19 /* netBankingVC.swift */; };
+		55FDC14624D2C7D700B0DF19 /* ePocketPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14524D2C7D700B0DF19 /* ePocketPaymentViewController.swift */; };
+		55FDC14824D2C7E500B0DF19 /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14724D2C7E500B0DF19 /* SubscriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048F4920C0FA40CA8736AA84 /* Pods-ePocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePocket.release.xcconfig"; path = "Target Support Files/Pods-ePocket/Pods-ePocket.release.xcconfig"; sourceTree = "<group>"; };
+		2D580963D4B13929BB8739C3 /* Pods-ePocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePocket.debug.xcconfig"; path = "Target Support Files/Pods-ePocket/Pods-ePocket.debug.xcconfig"; sourceTree = "<group>"; };
+		5517BA0A24D70D27001930D3 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		553CC93124D709B7002A92E4 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		555C6AFA24D4214200DD35AC /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		555F547224D1A3BB00ACCD13 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		5569F1C524D1536000E2C841 /* ePocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5569F1C824D1536000E2C841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5569F1CA24D1536000E2C841 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5569F1CC24D1536000E2C841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5569F1CC24D1536000E2C841 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5569F1CF24D1536000E2C841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5569F1D124D1536000E2C841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5569F1D424D1536000E2C841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5569F1D624D1536000E2C841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556D12A624D29AF1001B76D6 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		5579F78624D5A349006CD4B9 /* NBCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBCollectionViewCell.swift; sourceTree = "<group>"; };
+		558BC10124D7D53400687A2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
+		558BC10724D7D6B900687A2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55A8B79B24D5D75800737B42 /* PGCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGCollectionViewCell.swift; sourceTree = "<group>"; };
+		55A8B79D24D5D76400737B42 /* SUBCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUBCollectionViewCell.swift; sourceTree = "<group>"; };
+		55A8B79F24D5D76F00737B42 /* ePocketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePocketCollectionViewCell.swift; sourceTree = "<group>"; };
+		55BA323724D1A5E700A55146 /* showCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showCardViewController.swift; sourceTree = "<group>"; };
+		55BC5F9F24D7E2FE0098AAEF /* ContactsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCollectionViewCell.swift; sourceTree = "<group>"; };
+		55BC5FA124D7E97F0098AAEF /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		55E0588D24D161D700E033D1 /* ModelConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConstants.swift; sourceTree = "<group>"; };
+		55E0589024D1869E00E033D1 /* HapticFeedBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedBack.swift; sourceTree = "<group>"; };
+		55E9F4F424D153C400A97470 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		55E9F4F624D153CD00A97470 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		55FDC14124D2C79C00B0DF19 /* paymentGatewayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentGatewayViewController.swift; sourceTree = "<group>"; };
+		55FDC14324D2C7C000B0DF19 /* netBankingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = netBankingVC.swift; path = /Users/gokul/Desktop/Developement/ePocket/Controller/netBankingVC.swift; sourceTree = "<absolute>"; };
+		55FDC14524D2C7D700B0DF19 /* ePocketPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePocketPaymentViewController.swift; sourceTree = "<group>"; };
+		55FDC14724D2C7E500B0DF19 /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		BCF68D8E49043232C8B81E08 /* Pods_ePocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ePocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544DF8451F06E630F42F10CF /* Pods_ePocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +87,16 @@
 		5569F1BC24D1535F00E2C841 = {
 			isa = PBXGroup;
 			children = (
+				5569F1C824D1536000E2C841 /* AppDelegate.swift */,
+				5569F1CA24D1536000E2C841 /* SceneDelegate.swift */,
+				55E0588F24D1868700E033D1 /* Utilities */,
+				5569F1DE24D1538500E2C841 /* Controller */,
+				5569F1DD24D1537E00E2C841 /* View */,
+				5569F1DC24D1537500E2C841 /* Model */,
 				5569F1C724D1536000E2C841 /* ePocket */,
 				5569F1C624D1536000E2C841 /* Products */,
+				DC122783A56DC83B7DC387D7 /* Pods */,
+				579FAAA3606AC9379F25E51D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +111,87 @@
 		5569F1C724D1536000E2C841 /* ePocket */ = {
 			isa = PBXGroup;
 			children = (
-				5569F1C824D1536000E2C841 /* AppDelegate.swift */,
-				5569F1CA24D1536000E2C841 /* SceneDelegate.swift */,
-				5569F1CC24D1536000E2C841 /* ViewController.swift */,
-				5569F1CE24D1536000E2C841 /* Main.storyboard */,
 				5569F1D124D1536000E2C841 /* Assets.xcassets */,
 				5569F1D324D1536000E2C841 /* LaunchScreen.storyboard */,
-				5569F1D624D1536000E2C841 /* Info.plist */,
+				558BC10124D7D53400687A2F /* Info.plist */,
+				558BC10724D7D6B900687A2F /* GoogleService-Info.plist */,
 			);
 			path = ePocket;
+			sourceTree = "<group>";
+		};
+		5569F1DC24D1537500E2C841 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55E0588D24D161D700E033D1 /* ModelConstants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5569F1DD24D1537E00E2C841 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5569F1CE24D1536000E2C841 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5569F1DE24D1538500E2C841 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5569F1CC24D1536000E2C841 /* MainViewController.swift */,
+				55E9F4F424D153C400A97470 /* SignInViewController.swift */,
+				55E9F4F624D153CD00A97470 /* SignUpViewController.swift */,
+				55FDC14124D2C79C00B0DF19 /* paymentGatewayViewController.swift */,
+				55FDC14324D2C7C000B0DF19 /* netBankingVC.swift */,
+				55FDC14524D2C7D700B0DF19 /* ePocketPaymentViewController.swift */,
+				55FDC14724D2C7E500B0DF19 /* SubscriptionViewController.swift */,
+				555F547224D1A3BB00ACCD13 /* ReminderViewController.swift */,
+				553CC93124D709B7002A92E4 /* AddViewController.swift */,
+				55BC5FA124D7E97F0098AAEF /* AddFriendViewController.swift */,
+				5579F78824D5A351006CD4B9 /* Cells */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5579F78824D5A351006CD4B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5579F78624D5A349006CD4B9 /* NBCollectionViewCell.swift */,
+				55A8B79B24D5D75800737B42 /* PGCollectionViewCell.swift */,
+				55A8B79D24D5D76400737B42 /* SUBCollectionViewCell.swift */,
+				55A8B79F24D5D76F00737B42 /* ePocketCollectionViewCell.swift */,
+				5517BA0A24D70D27001930D3 /* ReminderTableViewCell.swift */,
+				55BC5F9F24D7E2FE0098AAEF /* ContactsCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		55E0588F24D1868700E033D1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				55E0589024D1869E00E033D1 /* HapticFeedBack.swift */,
+				55BA323724D1A5E700A55146 /* showCardViewController.swift */,
+				556D12A624D29AF1001B76D6 /* OnBoardingViewController.swift */,
+				555C6AFA24D4214200DD35AC /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		579FAAA3606AC9379F25E51D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF68D8E49043232C8B81E08 /* Pods_ePocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC122783A56DC83B7DC387D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D580963D4B13929BB8739C3 /* Pods-ePocket.debug.xcconfig */,
+				048F4920C0FA40CA8736AA84 /* Pods-ePocket.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5569F1D924D1536000E2C841 /* Build configuration list for PBXNativeTarget "ePocket" */;
 			buildPhases = (
+				32E177DD00842199559DE1A2 /* [CP] Check Pods Manifest.lock */,
 				5569F1C124D1536000E2C841 /* Sources */,
 				5569F1C224D1536000E2C841 /* Frameworks */,
 				5569F1C324D1536000E2C841 /* Resources */,
+				B5C7ED7D43712E42FC63CCBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5569F1D524D1536000E2C841 /* LaunchScreen.storyboard in Resources */,
+				558BC10824D7D6B900687A2F /* GoogleService-Info.plist in Resources */,
 				5569F1D224D1536000E2C841 /* Assets.xcassets in Resources */,
 				5569F1D024D1536000E2C841 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +263,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32E177DD00842199559DE1A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ePocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5C7ED7D43712E42FC63CCBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ePocket/Pods-ePocket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ePocket/Pods-ePocket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ePocket/Pods-ePocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5569F1C124D1536000E2C841 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5569F1CD24D1536000E2C841 /* ViewController.swift in Sources */,
+				55BA323824D1A5E700A55146 /* showCardViewController.swift in Sources */,
+				55E9F4F524D153C400A97470 /* SignInViewController.swift in Sources */,
+				55FDC14824D2C7E500B0DF19 /* SubscriptionViewController.swift in Sources */,
+				555C6AFB24D4214200DD35AC /* Utilities.swift in Sources */,
+				5569F1CD24D1536000E2C841 /* MainViewController.swift in Sources */,
 				5569F1C924D1536000E2C841 /* AppDelegate.swift in Sources */,
+				55BC5FA024D7E2FE0098AAEF /* ContactsCollectionViewCell.swift in Sources */,
+				55E0588E24D161D700E033D1 /* ModelConstants.swift in Sources */,
+				55BC5FA224D7E97F0098AAEF /* AddFriendViewController.swift in Sources */,
+				55FDC14224D2C79C00B0DF19 /* paymentGatewayViewController.swift in Sources */,
+				555F547324D1A3BB00ACCD13 /* ReminderViewController.swift in Sources */,
+				55A8B79C24D5D75800737B42 /* PGCollectionViewCell.swift in Sources */,
+				553CC93224D709B7002A92E4 /* AddViewController.swift in Sources */,
+				55FDC14624D2C7D700B0DF19 /* ePocketPaymentViewController.swift in Sources */,
 				5569F1CB24D1536000E2C841 /* SceneDelegate.swift in Sources */,
+				55E0589124D1869E00E033D1 /* HapticFeedBack.swift in Sources */,
+				5579F78724D5A349006CD4B9 /* NBCollectionViewCell.swift in Sources */,
+				55E9F4F724D153CD00A97470 /* SignUpViewController.swift in Sources */,
+				5517BA0B24D70D27001930D3 /* ReminderTableViewCell.swift in Sources */,
+				55FDC14424D2C7C100B0DF19 /* netBankingVC.swift in Sources */,
+				55A8B7A024D5D76F00737B42 /* ePocketCollectionViewCell.swift in Sources */,
+				556D12A724D29AF1001B76D6 /* OnBoardingViewController.swift in Sources */,
+				55A8B79E24D5D76400737B42 /* SUBCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +474,13 @@
 		};
 		5569F1DA24D1536000E2C841 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D580963D4B13929BB8739C3 /* Pods-ePocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJM8829Q7N;
 				INFOPLIST_FILE = ePocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +494,13 @@
 		};
 		5569F1DB24D1536000E2C841 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048F4920C0FA40CA8736AA84 /* Pods-ePocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJM8829Q7N;
 				INFOPLIST_FILE = ePocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
