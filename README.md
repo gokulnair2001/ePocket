@@ -33,8 +33,8 @@ The second best thing is using this app it provides you 2x protection as if you 
 * SignUp the app using a valid emailID and add your phone number, account no etc and you are done.
 * Inside the app you will get variety of options for payments like (Net Banking, Payment Gateway, Subscription Payments etc)
 * Then you can add your important contacts to the app which will be saved in the database.(currently its saving in local format, will update it soon)
-* You can add reminders in this app which will be saved in the database.
-* even you get the option of Report , support etc.
+* You can add reminders in this app which will be saved in the users database.
+* even you get the option of Report , support and a dedicated ePocket Payment Gateway(The company which build the app can add it by themselves).
 * so this is ePocket.
 
 # Libraries Used In Project 📒 
