@@ -11,7 +11,7 @@ ePocket is an All in One Payment App, comprises of Firebase Database and URL Fun
 ![badge](https://img.shields.io/badge/iOS-13-blue)
 ![badge](https://img.shields.io/badge/Platfrom-iOS-orange)
 ![Badge](https://img.shields.io/badge/Payment-Application-yellowgreen)
-![Badge](https://img.shields.io/badge/ePocket-App-alert)
+![Badge](https://img.shields.io/badge/ePocket-App-yellowGreen)
 
 # Introduction ⚒  
 So the idea of ePocket is relly a new one(I think so), its just because currently there are no apps in market which helps you to pay different payments through one app itself.
