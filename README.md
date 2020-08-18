@@ -45,6 +45,7 @@ The second best thing is using this app it provides you 2x protection as if you 
 * FireBase Storage
 * Message UI
 * AVKit 
+* Foundation
 
 # Snapshots of App 📸
 
