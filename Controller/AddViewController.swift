@@ -25,7 +25,7 @@ class AddViewController: UIViewController {
         if reminderTextField.text != "" {
             
             let UID = Auth.auth().currentUser!.uid
-           // let collection1 = self.db.collection(ePocket.FStore.collectionname).document(UID)
+           // let collection1 = self.db.collection(ePocket.FStore.collectionname).document(UID).collection("Reminders").collectionID
             let collection = self.db.collection(ePocket.FStore.collectionname).document(UID).collection("Reminders")
             let reminder = reminderTextField.text!
             

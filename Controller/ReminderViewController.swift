@@ -76,8 +76,9 @@ extension ReminderViewController {
     func loadData() {
         
         let userID = Auth.auth().currentUser!.uid
-      //  let collection = db.collection(ePocket.FStore.collectionname).document(userID).collection("Reminders")
-        db.collection(ePocket.FStore.collectionname).document(userID).collection("Reminders").document("rGvQEele534m4e3Lns0W").addSnapshotListener { (querySnapshot, error) in
+      //  let collectionID = Auth.auth().currentUser!.uid
+       // let collection = db.collection(ePocket.FStore.collectionname).document(userID).collection("Reminders").document()
+        db.collection(ePocket.FStore.collectionname).document(userID).collection("Reminders").document().addSnapshotListener { (querySnapshot, error) in
             
             if error != nil {
                 

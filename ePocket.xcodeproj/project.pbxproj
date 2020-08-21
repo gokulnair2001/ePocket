@@ -20,7 +20,6 @@
 		5569F1D524D1536000E2C841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5569F1D324D1536000E2C841 /* LaunchScreen.storyboard */; };
 		556D12A724D29AF1001B76D6 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D12A624D29AF1001B76D6 /* OnBoardingViewController.swift */; };
 		5579F78724D5A349006CD4B9 /* NBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579F78624D5A349006CD4B9 /* NBCollectionViewCell.swift */; };
-		558BC10824D7D6B900687A2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558BC10724D7D6B900687A2F /* GoogleService-Info.plist */; };
 		55A8B79C24D5D75800737B42 /* PGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8B79B24D5D75800737B42 /* PGCollectionViewCell.swift */; };
 		55A8B79E24D5D76400737B42 /* SUBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8B79D24D5D76400737B42 /* SUBCollectionViewCell.swift */; };
 		55A8B7A024D5D76F00737B42 /* ePocketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A8B79F24D5D76F00737B42 /* ePocketCollectionViewCell.swift */; };
@@ -29,10 +28,11 @@
 		55BC5FA224D7E97F0098AAEF /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC5FA124D7E97F0098AAEF /* AddFriendViewController.swift */; };
 		55E0588E24D161D700E033D1 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0588D24D161D700E033D1 /* ModelConstants.swift */; };
 		55E0589124D1869E00E033D1 /* HapticFeedBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0589024D1869E00E033D1 /* HapticFeedBack.swift */; };
+		55E07EA724EF93A1007CCF8D /* netBankingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E07EA624EF93A1007CCF8D /* netBankingVC.swift */; };
+		55E07EA924EF9BA3007CCF8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55E07EA824EF9BA3007CCF8D /* GoogleService-Info.plist */; };
 		55E9F4F524D153C400A97470 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9F4F424D153C400A97470 /* SignInViewController.swift */; };
 		55E9F4F724D153CD00A97470 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9F4F624D153CD00A97470 /* SignUpViewController.swift */; };
 		55FDC14224D2C79C00B0DF19 /* paymentGatewayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14124D2C79C00B0DF19 /* paymentGatewayViewController.swift */; };
-		55FDC14424D2C7C100B0DF19 /* netBankingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14324D2C7C000B0DF19 /* netBankingVC.swift */; };
 		55FDC14624D2C7D700B0DF19 /* ePocketPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14524D2C7D700B0DF19 /* ePocketPaymentViewController.swift */; };
 		55FDC14824D2C7E500B0DF19 /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDC14724D2C7E500B0DF19 /* SubscriptionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -54,7 +54,6 @@
 		556D12A624D29AF1001B76D6 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		5579F78624D5A349006CD4B9 /* NBCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBCollectionViewCell.swift; sourceTree = "<group>"; };
 		558BC10124D7D53400687A2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
-		558BC10724D7D6B900687A2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		55A8B79B24D5D75800737B42 /* PGCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGCollectionViewCell.swift; sourceTree = "<group>"; };
 		55A8B79D24D5D76400737B42 /* SUBCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUBCollectionViewCell.swift; sourceTree = "<group>"; };
 		55A8B79F24D5D76F00737B42 /* ePocketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePocketCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -63,10 +62,11 @@
 		55BC5FA124D7E97F0098AAEF /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		55E0588D24D161D700E033D1 /* ModelConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConstants.swift; sourceTree = "<group>"; };
 		55E0589024D1869E00E033D1 /* HapticFeedBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedBack.swift; sourceTree = "<group>"; };
+		55E07EA624EF93A1007CCF8D /* netBankingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netBankingVC.swift; sourceTree = "<group>"; };
+		55E07EA824EF9BA3007CCF8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		55E9F4F424D153C400A97470 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		55E9F4F624D153CD00A97470 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		55FDC14124D2C79C00B0DF19 /* paymentGatewayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentGatewayViewController.swift; sourceTree = "<group>"; };
-		55FDC14324D2C7C000B0DF19 /* netBankingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = netBankingVC.swift; path = /Users/gokul/Desktop/Developement/ePocket/Controller/netBankingVC.swift; sourceTree = "<absolute>"; };
 		55FDC14524D2C7D700B0DF19 /* ePocketPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePocketPaymentViewController.swift; sourceTree = "<group>"; };
 		55FDC14724D2C7E500B0DF19 /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
 		BCF68D8E49043232C8B81E08 /* Pods_ePocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ePocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +114,7 @@
 				5569F1D124D1536000E2C841 /* Assets.xcassets */,
 				5569F1D324D1536000E2C841 /* LaunchScreen.storyboard */,
 				558BC10124D7D53400687A2F /* Info.plist */,
-				558BC10724D7D6B900687A2F /* GoogleService-Info.plist */,
+				55E07EA824EF9BA3007CCF8D /* GoogleService-Info.plist */,
 			);
 			path = ePocket;
 			sourceTree = "<group>";
@@ -142,12 +142,12 @@
 				55E9F4F424D153C400A97470 /* SignInViewController.swift */,
 				55E9F4F624D153CD00A97470 /* SignUpViewController.swift */,
 				55FDC14124D2C79C00B0DF19 /* paymentGatewayViewController.swift */,
-				55FDC14324D2C7C000B0DF19 /* netBankingVC.swift */,
 				55FDC14524D2C7D700B0DF19 /* ePocketPaymentViewController.swift */,
 				55FDC14724D2C7E500B0DF19 /* SubscriptionViewController.swift */,
 				555F547224D1A3BB00ACCD13 /* ReminderViewController.swift */,
 				553CC93124D709B7002A92E4 /* AddViewController.swift */,
 				55BC5FA124D7E97F0098AAEF /* AddFriendViewController.swift */,
+				55E07EA624EF93A1007CCF8D /* netBankingVC.swift */,
 				5579F78824D5A351006CD4B9 /* Cells */,
 			);
 			path = Controller;
@@ -255,7 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5569F1D524D1536000E2C841 /* LaunchScreen.storyboard in Resources */,
-				558BC10824D7D6B900687A2F /* GoogleService-Info.plist in Resources */,
+				55E07EA924EF9BA3007CCF8D /* GoogleService-Info.plist in Resources */,
 				5569F1D224D1536000E2C841 /* Assets.xcassets in Resources */,
 				5569F1D024D1536000E2C841 /* Main.storyboard in Resources */,
 			);
@@ -326,10 +326,10 @@
 				55FDC14624D2C7D700B0DF19 /* ePocketPaymentViewController.swift in Sources */,
 				5569F1CB24D1536000E2C841 /* SceneDelegate.swift in Sources */,
 				55E0589124D1869E00E033D1 /* HapticFeedBack.swift in Sources */,
+				55E07EA724EF93A1007CCF8D /* netBankingVC.swift in Sources */,
 				5579F78724D5A349006CD4B9 /* NBCollectionViewCell.swift in Sources */,
 				55E9F4F724D153CD00A97470 /* SignUpViewController.swift in Sources */,
 				5517BA0B24D70D27001930D3 /* ReminderTableViewCell.swift in Sources */,
-				55FDC14424D2C7C100B0DF19 /* netBankingVC.swift in Sources */,
 				55A8B7A024D5D76F00737B42 /* ePocketCollectionViewCell.swift in Sources */,
 				556D12A724D29AF1001B76D6 /* OnBoardingViewController.swift in Sources */,
 				55A8B79E24D5D76400737B42 /* SUBCollectionViewCell.swift in Sources */,
