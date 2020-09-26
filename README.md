@@ -16,7 +16,7 @@ ePocket is an All in One Payment App, comprises of Firebase Database and URL Fun
 # Introduction ⚒  
 So the idea of ePocket is relly a new one(I think so), its just because currently there are no apps in market which helps you to pay different payments through one app itself.
 When it comes to payment there are 100's of app , but here comes the uniqueness of this app, this app consists of all other apps URL inherited so that if you want to pay
-from any form of gateway or method this app helps instead of downloading 100's of app. So basically this app fetches the URL of current app yu need and gets you to its web Portal.
+from any form of gateway or method this app helps instead of downloading 100's of App. So basically this app fetches the URL of current app yu need and gets you to its web Portal.
 The second best thing is using this app it provides you 2x protection as if you want to get into this app you require local authentication. So its secure too, SignIn once Use it infinitely.
 # Steps to run 📲
 
