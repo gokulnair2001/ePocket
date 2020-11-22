@@ -1,5 +1,5 @@
 # ePocket
-ePocket is an All in One Payment App, comprises of Firebase Database and URL Functioning.
+ePocket is an all in One Payment App, comprises of Firebase Database and URL Functioning.
 
 ![Badge](https://img.shields.io/badge/License-MIT-yellow) 
 ![Badge](https://img.shields.io/badge/Xcode-11.6-green)
