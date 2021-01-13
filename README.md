@@ -8,7 +8,7 @@ ePocket is an all in One Payment App, comprises of Firebase Database and URL Fun
 ![badge](https://img.shields.io/badge/Pods-FireBaseAuth-orange)
 ![badge](https://img.shields.io/badge/Pods-FireBaseDatabase-yellow)
 ![badge](https://img.shields.io/badge/Pods-FireBaseStorage-red)
-![badge](https://img.shields.io/badge/iOS-13+-blue)
+![badge](https://img.shields.io/badge/iOS-13-blue)
 ![badge](https://img.shields.io/badge/Platfrom-iOS-orange)
 ![Badge](https://img.shields.io/badge/Payment-Application-yellowgreen)
 ![Badge](https://img.shields.io/badge/ePocket-App-yellowGreen)
