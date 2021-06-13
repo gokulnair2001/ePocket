@@ -71,7 +71,7 @@ MIT License<br> Please read the [License](https://github.com/gokulnair2001/ePock
 
 # Imortant Message ⚠️
 
-* Still there are things to complete as well as to implement, If you find this app intresting than hit me up; I will be
+* Still there are things to complete as well as to implement, If you find this app intresting then ping me up; I will be
 glad to work with you.
 
 ## Project Admin 👨🏻‍💻
